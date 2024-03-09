@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.messages {
+  border: 1px solid #cd1616;
+  height: 200px;
+  margin: 10px;
+}
+
+.input {
+  display: blok;
+  width: 100%;
+  margin: 10px 0px;
+  font-size: 2em;
+  padding: 5px;
+  margin: 10px;
+}
+#login-form {
+  display: flex;
+  width: 100%;
+}
+#login-form .input {
+  flex: 1;
+}
+
+button {
+  width: 80px;
+  height: 60px;
+  border-radius: 3px;
+  margin: 10px;
+  font-size: 20px;
+}
+  /* .login , .container {
+    display:none ;
+  } */
