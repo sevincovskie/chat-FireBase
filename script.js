@@ -53,7 +53,7 @@ document.querySelector('.message-form').addEventListener('submit', e => {
 
     set(ref(db, `chat/${snapshot.key}`), {
         text: message,
-        user
+        user,
     }).then(() => {
         e.target.message.value = '';
     }); 

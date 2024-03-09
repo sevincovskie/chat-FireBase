@@ -16,7 +16,7 @@
   };
 
   // Initialize Firebase
- export const app = initializeApp(firebaseConfig);
+  const app = initializeApp(firebaseConfig);
   const db= getDatabase(app);
 
   export default db;
